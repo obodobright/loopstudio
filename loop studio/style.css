@@ -1,0 +1,523 @@
+                * {
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box
+                }
+                
+                body {
+                    font-family: 'roboto';
+                    font-weight: 400;
+                    background: rgb(255, 255, 255)
+                }
+                /* header */
+                
+                header {
+                    height: 400px;
+                    background-image: url(../image/image-hero.jpg);
+                    background-size: cover;
+                    background-position: center;
+                }
+                /* logo styles */
+                
+                .navbar-brand {
+                    text-decoration: none;
+                    font-size: 1.3em;
+                    color: white;
+                    font-weight: 600;
+                }
+                /* navbar-nav ul styles */
+                
+                .navbar-nav {
+                    list-style-type: none;
+                    margin: 0;
+                    padding: 0;
+                    display: flex;
+                    margin-left: 50vw;
+                }
+                /* navigationBar styles */
+                /* nav-item li styles */
+                
+                .nav-item {
+                    padding: 0.5em;
+                }
+                /* nav-link a styles */
+                
+                .nav-link {
+                    text-decoration: none;
+                    color: white;
+                }
+                /* navbar styles */
+                
+                .navbar {
+                    height: 60px;
+                    display: -ms-flexbox;
+                    display: -ms-webkit-box;
+                    display: flex;
+                    overflow: hidden;
+                    padding: 0.5em;
+                }
+                /* header content */
+                
+                .header-content {
+                    font-family: aria;
+                    color: white;
+                    border: 2px solid white;
+                    width: fit-content;
+                    padding: 0.4em;
+                    text-align: LEFT;
+                    margin-left: 2em;
+                    margin-right: 20em;
+                    font-size: 35px;
+                    margin-top: 20vh;
+                    margin-bottom: auto;
+                    border-radius: 0.2em
+                }
+                /* first image after header */
+                
+                .img-section {
+                    width: 50%;
+                    display: block;
+                    margin-left: 6em;
+                    margin-right: auto;
+                    margin-top: 5em
+                }
+                
+                @media(min-width:768px) {
+                    /* Company Acknowledgement content class */
+                    .page-acknowlege {
+                        width: 50%;
+                        background: white;
+                        padding-left: 4em;
+                        padding-right: 4em;
+                        padding-top: 2em;
+                        padding-bottom: 2em;
+                        position: relative;
+                        top: -13em;
+                        left: 47%
+                    }
+                    .page-acknowlege h1 {
+                        font-size: 40px;
+                        padding-bottom: 0.7em
+                    }
+                    /* desktop company creation container */
+                    .company-creation {
+                        margin-left: 3em;
+                        margin-right: 3em;
+                        margin-top: -10em
+                    }
+                    /* creation headr */
+                    .company-creation h1 {
+                        text-align: left;
+                        font-size: 40px
+                    }
+                    /* 'see all' button visible for mobile and invicible desktop */
+                    .desktop-invicible {
+                        display: none
+                    }
+                    /* desktop  creations 'see all' visible - */
+                    #company-creation-desktop h3 {
+                        font-size: 1em;
+                        border: 2px solid black;
+                        width: fit-content;
+                        margin-right: auto;
+                        margin-left: auto;
+                        margin-top: 1em;
+                        cursor: pointer;
+                        padding: 0.3em
+                    }
+                    /* internal flexed elements */
+                    #company-creation-desktop {
+                        display: flex;
+                        margin-bottom: 4em;
+                    }
+                    /* flexed element flex-wrap */
+                    #company-creation-desktop h1 {
+                        flex: 1
+                    }
+                    /* image for desktop */
+                    .deep-earth-content {
+                        background-image: url(../image/image-deep-earth.jpg);
+                        background-size: cover;
+                        background-position: center;
+                        cursor: pointer;
+                        height: 300;
+                        width: 20%
+                    }
+                    .night-archade-content {
+                        background-image: url(../image/image-night-arcade.jpg);
+                        background-size: cover;
+                        background-position: center;
+                        cursor: pointer;
+                        height: 300;
+                        width: 20%
+                    }
+                    .soccer-team-content {
+                        background-image: url(../image/image-soccer-team.jpg);
+                        background-size: cover;
+                        background-position: center;
+                        cursor: pointer;
+                        height: 300;
+                        width: 20%
+                    }
+                    .grid-content {
+                        background-image: url(../image/image-grid.jpg);
+                        background-size: cover;
+                        background-position: center;
+                        cursor: pointer;
+                        height: 300;
+                        width: 20%
+                    }
+                    .above-vr-content {
+                        background-image: url(../image/image-from-above.jpg);
+                        background-size: cover;
+                        background-position: center;
+                        cursor: pointer;
+                        height: 300;
+                        width: 20%
+                    }
+                    .pocket-borealis-content {
+                        background-image: url(../image/image-pocket-borealis.jpg);
+                        background-size: cover;
+                        background-position: center;
+                        cursor: pointer;
+                        height: 300;
+                        width: 20%
+                    }
+                    .the-curiousity-content {
+                        background-image: url(../image/image-curiosity.jpg);
+                        background-size: cover;
+                        background-position: center;
+                        cursor: pointer;
+                        height: 300;
+                        width: 20%
+                    }
+                    .fisheye-content {
+                        background-image: url(../image/image-fisheye.jpg);
+                        background-size: cover;
+                        background-position: center;
+                        cursor: pointer;
+                        height: 300;
+                        width: 20%
+                    }
+                    #desktop-image-section1 {
+                        display: flex;
+                    }
+                    #desktop-image-section2 {
+                        display: flex;
+                    }
+                    .desktop-image,
+                    .desktop-image1 {
+                        flex: 1;
+                        margin: 0.5em;
+                    }
+                    .desktop-image1 h2,
+                    .desktop-image h2 {
+                        position: relative;
+                        top: 7em;
+                        padding: 2em
+                    }
+                    footer {
+                        background: black;
+                        text-align: center;
+                        margin-top: 3em;
+                        padding: 1em
+                    }
+                    footer h4 {
+                        display: none
+                    }
+                    .desktop-footer h5 {
+                        color: white;
+                        font-size: 1.5em;
+                    }
+                    footer ul {
+                        list-style-type: none;
+                        padding: 0;
+                        margin: 0
+                    }
+                    footer ul li {
+                        display: inline;
+                        padding: 0.5em
+                    }
+                    footer ul li a {
+                        text-decoration: none;
+                        font-size: 1.2em;
+                        color: white;
+                    }
+                    .logo-icon-desktop-invincible {
+                        display: none
+                    }
+                    /* hover image for all images in section */
+                    .grid-content:hover,
+                    .soccer-team-content:hover,
+                    .night-archade-content:hover,
+                    .deep-earth-content:hover,
+                    .above-vr-content:hover,
+                    .pocket-borealis-content:hover,
+                    .the-curiousity-content:hover,
+                    .fisheye-content:hover {
+                        opacity: 0.6;
+                        transition: 0.6s;
+                    }
+                }
+                /* styles for span close-nav and navbrand-mobile */
+                
+                .close-nav,
+                span,
+                .navbrand-mobile {
+                    display: none
+                }
+                /* icons */
+                
+                i {
+                    color: white;
+                    padding: 0.5em;
+                    margin-top: 1em
+                }
+                /* mobile responsiveness styles */
+                
+                @media(max-width:768px) {
+                    /* navigation Bar for side Nav */
+                    .navigationBar {
+                        position: fixed;
+                        top: 0;
+                        right: 0;
+                        height: 100%;
+                        background: black;
+                        width: 0;
+                        transition: 0.3s;
+                        overflow-x: hidden;
+                        z-index: 1;
+                    }
+                    /* nav-item li mobile */
+                    .nav-item {
+                        padding: 0.5em;
+                        display: block
+                    }
+                    /* mobile spann for icon bars */
+                    span {
+                        display: block;
+                        position: absolute;
+                        top: 15px;
+                        right: 10px;
+                        color: white
+                    }
+                    /* styles for times(to exit sideNAVBar) */
+                    .close-nav {
+                        display: block;
+                        position: absolute;
+                        top: 10px;
+                        right: 10px;
+                        font-size: 30px;
+                        text-decoration: none;
+                        color: white;
+                        margin-bottom: 1em;
+                    }
+                    header {
+                        height: 400px;
+                        background-image: url(../mobile/image-hero.jpg);
+                        background-size: cover;
+                        background-position: center;
+                    }
+                    /* logo inside responsive side bar */
+                    .navbrand-mobile {
+                        display: block;
+                        text-decoration: none;
+                        color: white;
+                        position: relative;
+                        top: -20px;
+                        font-size: 25px;
+                        padding-left: 1.5em
+                    }
+                    /* mobile ul respnsive */
+                    .navbar-nav {
+                        margin-left: auto;
+                        flex-direction: column;
+                        margin-top: 4em;
+                    }
+                    /* ul li a styles for sidenavbar */
+                    .nav-link {
+                        color: white;
+                        font-size: 1.2em;
+                        display: block;
+                        padding-left: 1.5em;
+                        text-transform: uppercase;
+                    }
+                    /* MOBILE HEADER */
+                    header {
+                        height: 500px;
+                        background-image: url(../image/image-hero.jpg);
+                        background-size: cover;
+                        background-position: center;
+                    }
+                    /* section tag with first section class */
+                    .first-section {
+                        margin-left: 2em;
+                        margin-right: 2em
+                    }
+                    /* first image after header */
+                    .img-section {
+                        width: 100%;
+                        display: block;
+                        margin-left: auto;
+                        margin-right: auto;
+                        margin-top: 2em
+                    }
+                    /* header content */
+                    .header-content {
+                        font-family: aria;
+                        color: white;
+                        border: 2px solid white;
+                        width: fit-content;
+                        padding: 0.5em;
+                        text-align: LEFT;
+                        margin-left: 1em;
+                        margin-right: 1em;
+                        font-size: 35px;
+                        margin-top: 20vh;
+                        margin-bottom: auto
+                    }
+                    /* Company Acknowledgement content class */
+                    .page-acknowlege {
+                        text-align: center;
+                        padding: 1.5em;
+                        background: rgb(255, 249, 249);
+                        margin-top: 1em
+                    }
+                    /* first image for section */
+                    .deep-earth-content {
+                        background-image: url(../mobile/image-deep-earth.jpg);
+                        background-size: cover;
+                        background-position: center;
+                        cursor: pointer;
+                        margin-bottom: 1em
+                    }
+                    .page-acknowlege h1 {
+                        font-size: 2em;
+                        padding: 0.5em
+                    }
+                    .company-creation h1 {
+                        padding: 0.5em;
+                        font-size: 2em;
+                        text-align: center
+                    }
+                    .company-creation h2 {
+                        margin-right: 4em;
+                        font-size: 2em;
+                        padding-top: 1em;
+                        padding-left: 0.5em;
+                        padding-bottom: 0.5em
+                    }
+                    /* second image for section */
+                    .night-archade-content {
+                        background-image: url(../mobile/image-night-arcade.jpg);
+                        background-size: cover;
+                        background-position: center;
+                        cursor: pointer;
+                        margin-bottom: 1em
+                    }
+                    /* third image for section */
+                    .soccer-team-content {
+                        background-image: url(../mobile/image-soccer-team.jpg);
+                        background-size: cover;
+                        background-position: center;
+                        cursor: pointer;
+                        margin-bottom: 1em
+                    }
+                    /* fourth image for section */
+                    .grid-content {
+                        background-image: url(../mobile/image-grid.jpg);
+                        background-size: cover;
+                        background-position: center;
+                        cursor: pointer;
+                        margin-bottom: 1em
+                    }
+                    /* hover image for all images in section */
+                    .grid-content:hover,
+                    .soccer-team-content:hover,
+                    .night-archade-content:hover,
+                    .deep-earth-content:hover,
+                    .above-vr-content:hover,
+                    .pocket-borealis-content:hover,
+                    .the-curiousity-content:hover,
+                    .fisheye-content:hover {
+                        opacity: 0.6;
+                    }
+                    /* fifth image on section */
+                    .above-vr-content {
+                        background-image: url(../mobile/image-from-above.jpg);
+                        background-size: cover;
+                        background-position: center;
+                        cursor: pointer;
+                        margin-bottom: 1em
+                    }
+                    /* sixth image on section */
+                    .pocket-borealis-content {
+                        background-image: url(../mobile/image-pocket-borealis.jpg);
+                        background-size: cover;
+                        background-position: center;
+                        cursor: pointer;
+                        margin-bottom: 1em
+                    }
+                    /* seventh image on section */
+                    .the-curiousity-content {
+                        background-image: url(../mobile/image-curiosity.jpg);
+                        background-size: cover;
+                        background-position: center;
+                        cursor: pointer;
+                        margin-bottom: 1em
+                    }
+                    /* eight image on section */
+                    .fisheye-content {
+                        background-image: url(../mobile/image-fisheye.jpg);
+                        background-size: cover;
+                        background-position: center;
+                        cursor: pointer;
+                        margin-bottom: 1em
+                    }
+                    /* see all border */
+                    .first-section h3 {
+                        font-size: 2em;
+                        border: 2px solid black;
+                        width: fit-content;
+                        margin-right: auto;
+                        margin-left: auto;
+                        margin-top: 1em;
+                        cursor: pointer;
+                        padding: 0.3em
+                    }
+                    #company-creation-desktop h3 {
+                        display: none
+                    }
+                    /* footer */
+                    footer {
+                        background: black;
+                        text-align: center;
+                        margin-top: 3em;
+                        padding: 3em
+                    }
+                    footer h4 {
+                        color: white;
+                        font-size: 1.5em;
+                        margin-bottom: 2em
+                    }
+                    footer ul {
+                        list-style-type: none;
+                        padding: 0;
+                        margin: 0
+                    }
+                    footer ul li {
+                        padding: 0.5em
+                    }
+                    footer ul li a {
+                        text-decoration: none;
+                        font-size: 1.2em;
+                        color: white;
+                        padding: 1.5em
+                    }
+                    .desktop-footer i {
+                        display: none
+                    }
+                    .mobile-footer-hide {
+                        display: none
+                    }
+                }
